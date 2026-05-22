@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Mouse Helper
+Comment=Control Logitech G Pro Superlight settings
+Exec=mouse-helper-tray
+Icon=input-mouse
+Terminal=false
+Categories=Settings;Hardware;
+X-GNOME-Autostart-enabled=true

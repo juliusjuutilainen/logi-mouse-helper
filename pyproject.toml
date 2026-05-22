@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mouse-helper"
+version = "0.1.0"
+description = "Small Linux Mint helper for Logitech G Pro Superlight mice"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-2.0-or-later"
+authors = [{ name = "mouse-helper contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+desktop = ["PyGObject"]
+
+[project.scripts]
+mouse-helperctl = "mouse_helper.cli:main"
+mouse-helperd = "mouse_helper.daemon:main"
+mouse-helper-tray = "mouse_helper.tray:main"
+mouse-helper-genmon = "mouse_helper.genmon:main"
+mouse-helper-menu = "mouse_helper.menu:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

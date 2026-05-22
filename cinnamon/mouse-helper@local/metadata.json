@@ -1,0 +1,7 @@
+{
+  "uuid": "mouse-helper@local",
+  "name": "Mouse Helper",
+  "description": "Control Logitech G Pro Superlight from the Cinnamon panel",
+  "version": "0.1.0",
+  "max-instances": 1
+}

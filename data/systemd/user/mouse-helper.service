@@ -1,0 +1,12 @@
+[Unit]
+Description=Mouse Helper daemon
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/mouse-helperd --foreground
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
