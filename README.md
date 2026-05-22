@@ -12,6 +12,8 @@ Anyone can use it, fork it, break it, adapt it, or turn it into something else
 under the project license. The defaults and priorities are tuned for my own
 Linux desktop, but the code is not meant to be locked to one distribution.
 
+For setup instructions, start with [docs/install.md](docs/install.md).
+
 ## Vision
 
 - A universal Linux mouse helper for personal daily use.
@@ -99,6 +101,9 @@ on the panel environment.
 | Alpine | Unknown | Musl/minimal desktop setup is untested. |
 
 ## Quick Start
+
+For the complete clean-machine install flow, see
+[docs/install.md](docs/install.md).
 
 From the repository root:
 
